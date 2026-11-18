@@ -1,0 +1,98 @@
+{
+  "retrieved": "2026-11-05",
+  "rule": "Страта — поверитель и год; у каждой модели не менее 15 записей; исключены организации с «Олдис» или «ЭРИС» в названии и записи, где одновременно указаны 411 и 414. CMH без поправки на непрерывность, OR Мантеля — Хензеля.",
+  "eris414_ambiguous_records_excluded": 752,
+  "years": {
+    "2023": {
+      "strata": 16,
+      "altair_bad": 85,
+      "altair_total": 914,
+      "eris414_bad": 267,
+      "eris414_total": 3118,
+      "or_mh": 0.7968579345145895,
+      "cmh": 1.432606775437585,
+      "p_cmh": 0.23133948208406727
+    },
+    "2024": {
+      "strata": 14,
+      "altair_bad": 24,
+      "altair_total": 1324,
+      "eris414_bad": 281,
+      "eris414_total": 2174,
+      "or_mh": 0.238674065782635,
+      "cmh": 30.101939981586078,
+      "p_cmh": 4.0992094083645295e-08
+    },
+    "2025": {
+      "strata": 18,
+      "altair_bad": 156,
+      "altair_total": 2500,
+      "eris414_bad": 648,
+      "eris414_total": 4912,
+      "or_mh": 0.16117425255216522,
+      "cmh": 106.18423737034557,
+      "p_cmh": 6.718896448681538e-25
+    }
+  },
+  "combined": {
+    "strata": 48,
+    "altair_bad": 265,
+    "altair_total": 4738,
+    "eris414_bad": 1196,
+    "eris414_total": 10204,
+    "or_mh": 0.3203356068450069,
+    "cmh": 103.13401069238127,
+    "p_cmh": 3.1322741710410204e-24
+  },
+  "downloads": {
+    "altair-2023": {
+      "source": "https://fgis.gost.ru/fundmetrology/eapi/vri?year=2023&rows=100&start=0&search=71431-18",
+      "retrieved": "2026-11-05",
+      "api_count": 3018,
+      "received_count": 3018,
+      "unique_count": 3018,
+      "duplicate_count": 0
+    },
+    "eris414-2023": {
+      "source": "https://fgis.gost.ru/fundmetrology/eapi/vri?year=2023&rows=100&start=0&mit_number=65108-16&mi_modification=%2A414%2A",
+      "retrieved": "2026-11-05",
+      "api_count": 15332,
+      "received_count": 15332,
+      "unique_count": 15331,
+      "duplicate_count": 1
+    },
+    "altair-2024": {
+      "source": "https://fgis.gost.ru/fundmetrology/eapi/vri?year=2024&rows=100&start=0&search=71431-18",
+      "retrieved": "2026-11-05",
+      "api_count": 4467,
+      "received_count": 4467,
+      "unique_count": 4467,
+      "duplicate_count": 0
+    },
+    "eris414-2024": {
+      "source": "https://fgis.gost.ru/fundmetrology/eapi/vri?year=2024&rows=100&start=0&mit_number=65108-16&mi_modification=%2A414%2A",
+      "retrieved": "2026-11-05",
+      "api_count": 18132,
+      "received_count": 18132,
+      "unique_count": 18131,
+      "duplicate_count": 1
+    },
+    "altair-2025": {
+      "source": "https://fgis.gost.ru/fundmetrology/eapi/vri?year=2025&rows=100&start=0&search=71431-18",
+      "retrieved": "2026-11-05",
+      "api_count": 3555,
+      "received_count": 3555,
+      "unique_count": 3555,
+      "duplicate_count": 0
+    },
+    "eris414-2025": {
+      "source": "https://fgis.gost.ru/fundmetrology/eapi/vri?year=2025&rows=100&start=0&mit_number=65108-16&mi_modification=%2A414%2A",
+      "retrieved": "2026-11-05",
+      "api_count": 20274,
+      "received_count": 20274,
+      "unique_count": 20274,
+      "duplicate_count": 0
+    }
+  },
+  "limitation": "Наблюдаемые исходы поверок, не причинная надёжность. Владелец, возраст и замена сенсоров не учтены."
+}
